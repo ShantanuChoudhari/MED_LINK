@@ -1,0 +1,9 @@
+{
+  "name": "Copy of MedLink AI - Advanced Healthcare Ecosystem",
+  "description": "A comprehensive industry-level doctor appointment system featuring AI-driven diagnostics, telemedicine, EHR management, and real-time scheduling for patients, doctors, and hospital administrators.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
