@@ -20,14 +20,5 @@
         }
       ]
     }
-  ],
-  "experimentalServices": {
-    "medlink-backend": {
-      "type": "web",
-      "root": "backend",
-      "entrypoint": "src/app.js",
-      "routePrefix": "/",
-      "buildCommand": "npm install"
-    }
-  }
+  ]
 }
