@@ -56,8 +56,8 @@ Respond ONLY with valid JSON (no markdown, no code fences, no explanation):
   "advice": "<one sentence advice in plain English>"
 }`;
 
-  // Try models in preference order — gemini-1.5-flash is the correct SDK v0.24+ name
-  const MODEL_CANDIDATES = ['gemini-1.5-flash', 'gemini-1.0-pro', 'gemini-pro'];
+  // Try models in preference order — gemini-3.6-flash confirmed working
+  const MODEL_CANDIDATES = ['gemini-3.6-flash', 'gemini-2.5-flash'];
 
   for (const modelName of MODEL_CANDIDATES) {
     try {

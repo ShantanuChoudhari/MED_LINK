@@ -16,8 +16,8 @@ exports.analyzeSymptoms = async (req, res) => {
     }
 
     const genAI = new GoogleGenerativeAI(apiKey);
-    // ✅ Fixed: correct model name for @google/generative-ai SDK v0.24+
-    const model = genAI.getGenerativeModel({ model: 'gemini-1.5-flash' });
+    // ✅ Fixed: correct model name confirmed working for this API key
+    const model = genAI.getGenerativeModel({ model: 'gemini-3.6-flash' });
 
     const prompt = `
 Act as a medical triage AI. The user reports: "${symptoms}".
